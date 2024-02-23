@@ -96,7 +96,7 @@ const Card: FC<CardProps> = ({ planet }) => {
             {planet.residents.map((resident, index) => (
               <ResidentInf
                 key={resident}
-                residentNo={index}
+                residentNo={index + 1}
                 resident={resident}
               />
             ))}
